@@ -4,7 +4,7 @@
 	"public/js/libs/jquery/dist/jquery.js",
 	"public/js/libs/underscore/underscore.js",
 	"public/js/libs/backbone/backbone.js",
-	"public/js/lib/chai.js",
+	"tests/lib/chai.js",
 	"public/js/models/*.js",
 	"public/js/collections/*.js",
 	"public/js/views/*.js",
