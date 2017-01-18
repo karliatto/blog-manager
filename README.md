@@ -1,4 +1,4 @@
-# blog
+# Blog Manager
 
 A simple JavaScript application managing blog posts.
 
@@ -41,4 +41,21 @@ npm start
 If everything is OK, then you should see the following:
 ```
 Our app is running on port 3000
+```
+
+
+## Testing front-end
+
+For testing front-end you need to have globaly install  [Test'em](https://github.com/testem/testem), run the following command:
+
+
+```bash
+npm install testem -g
+```
+Notice you may need sudo for installing globaly.
+
+And then run the following command in the project directory to run tests:
+
+```bash
+testem
 ```
