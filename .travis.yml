@@ -1,0 +1,18 @@
+before_script:
+  - mysql -e 'DROP DATABASE IF EXISTS blog; CREATE DATABASE blog;'
+  - mysql -e "CREATE USER 'blog'@'localhost' IDENTIFIED BY 'password';"
+  - mysql -u root -e "GRANT ALL ON blog.* TO 'blog'@'localhost';"
+
+language: node_js
+node_js:
+  - "6"
+  - "4"
+
+
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - gcc-4.8
+    - g++-4.8

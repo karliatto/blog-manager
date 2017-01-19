@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/karliatto/blog-manager.svg?branch=master)](https://travis-ci.org/karliatto/blog-manager) 
+
 # Blog Manager
 
 A simple JavaScript application managing blog posts.
@@ -46,16 +48,17 @@ Our app is running on port 3000
 
 ## Testing front-end
 
-For testing front-end you need to have globaly install  [Test'em](https://github.com/testem/testem), run the following command:
-
+For testing front-end you only have to run the command below:
 
 ```bash
-npm install testem -g
+./node_modules/testem/testem.js -l Firefox ci
 ```
-Notice you may need sudo for installing globaly.
 
-And then run the following command in the project directory to run tests:
+
+## More testing
+
+For testing the rest of the code syntax and server side run the following comand:
 
 ```bash
-testem
+npm test
 ```
