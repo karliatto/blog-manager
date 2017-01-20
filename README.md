@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/karliatto/blog-manager.svg?branch=master)](https://travis-ci.org/karliatto/blog-manager) 
+[![Build Status](https://travis-ci.org/karliatto/blog-manager.svg?branch=master)](https://travis-ci.org/karliatto/blog-manager)
 
 # Blog Manager
 
@@ -48,7 +48,13 @@ Our app is running on port 3000
 
 ## Testing front-end
 
-For testing front-end you only have to run the command below:
+For testing front-end I am using [Test'em](https://github.com/testem/testem) and it needs to run on a browser for testing front-end code.
+First you need to find out the browsers available on your system, for this purpose, run the following command:
+```bash
+./node_modules/testem/testem.js launchers
+```
+
+And then run it on the browser you wish, bellow ther is an example for Firefox.
 
 ```bash
 ./node_modules/testem/testem.js -l Firefox ci
@@ -57,7 +63,7 @@ For testing front-end you only have to run the command below:
 
 ## More testing
 
-For testing the rest of the code syntax and server side run the following comand:
+For testing the rest of the code syntax and server side run the following command:
 
 ```bash
 npm test
