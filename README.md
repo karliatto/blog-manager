@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/karliatto/blog-manager.svg?branch=master)](https://travis-ci.org/karliatto/blog-manager)
+[![Status of Dependencies](https://david-dm.org/karliatto/blog-manager.svg)](https://david-dm.org/karliatto/blog-manager)
 
 # Blog Manager
 
